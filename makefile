@@ -15,8 +15,7 @@ $(BINARY): $(build) $(OBJFILES)
 	$(CXX) -o $@ $^ $(SDLFLAGS)
 
 build:
-	@ rm -rf build
-	@ mkdir build
+	mkdir build
 
 $(BUILDIR)/%.o: $(SRCDIR)/%.cpp
 	$(CXX) $(CFLAGS) -c -o $@ $<
