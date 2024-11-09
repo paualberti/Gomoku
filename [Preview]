@@ -1,0 +1,7 @@
+| 4|   : side_x(size_window / SIZE)
+| 5|   , side_y(size_window / SIZE)
+|20|   for (int i = 0; i < SIZE * SIZE; ++i) {
+|39|   SDL_SetRenderDrawColor(renderer, 190, SIZE1, 91, 255);
+|42|   for (int i = 0; i < SIZE; ++i) {
+|59|       side_x = std::min(event.window.data1 / SIZE, event.window.data2 / SIZE);
+|67|     int pos = y * SIZE + x;
