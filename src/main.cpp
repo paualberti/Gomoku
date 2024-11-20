@@ -1,7 +1,7 @@
 #include "Handler.hpp"
 
 int main() {
-  Handler *handler = new Handler("Gomoku", 714);
+  Handler *handler = new Handler("Gomoku", 850);
   while (handler->is_running()) {
     handler->events();
     handler->update();
