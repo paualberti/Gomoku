@@ -4,7 +4,7 @@
 
 ```Bash
 rm -rf ~/Gomoku/
-git clone https://github.com/paualberti/Gomoku
+git clone https://github.com/paualberti/Gomoku ~/Gomoku/
 ```
 
 ## What is it?
