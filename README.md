@@ -2,9 +2,24 @@
 
 ## Try it by yourself
 
-```Bash
-rm -rf ~/Gomoku/
-git clone https://github.com/paualberti/Gomoku ~/Gomoku/
+<details><summary>Set a path</summary>
+
+```
+path=<your_path>
+```
+</details>
+
+<details><summary>Use my path</summary>
+
+```
+path=$HOME/Gomoku/
+```
+
+</details>
+
+```
+git clone https://github.com/paualberti/Gomoku $path
+cd $path
 ```
 
 ## What is it?
