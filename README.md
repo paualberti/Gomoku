@@ -17,10 +17,14 @@ path=$HOME/Gomoku/
 
 </details>
 
+<details><summary>Clone the project</summary>
+
 ```
 git clone https://github.com/paualberti/Gomoku $path
 cd $path
 ```
+
+</details>
 
 ## What is it?
 
