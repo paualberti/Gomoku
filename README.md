@@ -14,7 +14,7 @@ The rules of the game can be found [here](https://en.wikipedia.org/wiki/Gomoku)
 * SDL2 library. Install via `sudo apt-get install libsdl2-dev`
 * g++, make
 
-## Try it by yourself
+## Try it for yourself
 
 ### Set a path
 
