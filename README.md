@@ -1,28 +1,5 @@
 # Gomoku (5 in a row)
 
-## Try it by yourself
-
-<details><summary>Set a path</summary>
-
-```
-path=<your_path>
-```
-
-```
-path=$HOME/Gomoku/
-```
-
-</details>
-
-<details><summary>Clone the project</summary>
-
-```
-git clone https://github.com/paualberti/Gomoku $path
-cd $path
-```
-
-</details>
-
 ## What is it?
 
 This project is an implementation of the game Gomoku using SDL2.<br>
@@ -36,6 +13,31 @@ The rules of the game can be found [here](https://en.wikipedia.org/wiki/Gomoku)
 
 * SDL2 library. Install via `sudo apt-get install libsdl2-dev`
 * g++, make
+
+## Try it by yourself
+
+### Set a path
+
+```
+path=<your_path>
+```
+
+```
+path=$HOME/Gomoku/
+```
+
+### Installation
+
+```
+git clone --filter=blob:none https://github.com/paualberti/Gomoku $path
+cd $path
+```
+
+### Build process
+
+```
+make all
+```
 
 ## TODO
 
